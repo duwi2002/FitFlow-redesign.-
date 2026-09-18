@@ -1,0 +1,86 @@
+# =========================
+# Node.js / Frontend / Backend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Python / AI Service
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+.Python
+
+# ML Models (large files)
+*.h5
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+!ai-service/models/.gitkeep
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# IDE & Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing & Coverage
+# =========================
+coverage/
+.nyc_output/
+htmlcov/
+.pytest_cache/
+.coverage
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Miscellaneous
+# =========================
+*.bak
+*.orig
